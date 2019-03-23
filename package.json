@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "rollup": "^1.7.0",
+    "rollup-plugin-typescript2": "^0.20.1",
+    "typescript": "^3.3.4000"
+  },
+  "name": "fpop",
+  "version": "0.0.1",
+  "description": "Floating Point OPerators.",
+  "main": "dst/index.js",
+  "repository": "https://github.com/lazarljubenovic/fpop",
+  "author": "Lazar Ljubenović <lazar.ljubenovic.1995@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
