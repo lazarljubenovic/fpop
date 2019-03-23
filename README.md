@@ -22,6 +22,9 @@ const e = 2.00000002
 
 fpop.eq(a, b) // => true
 fpop.eq(c, d, e) // => true
+
+fpop.lt(a, b) // => false
+fpop.gte(c, a) // => true
 ```
 
 ## List of operators
