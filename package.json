@@ -16,6 +16,7 @@
   "version": "0.0.1",
   "description": "Floating Point OPerators.",
   "main": "dst/index.js",
+  "typings": "dst/index.d.ts",
   "repository": "https://github.com/lazarljubenovic/fpop",
   "author": "Lazar Ljubenović <lazar.ljubenovic.1995@gmail.com>",
   "license": "MIT",
