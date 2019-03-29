@@ -4,11 +4,12 @@ export default {
   input: './src/index.ts',
   output: {
     format: 'es',
-    file: './dst/index.js',
+    file: './dst/esm/index.js',
   },
   plugins: [
     typescript({
       typescript: require('typescript'),
+      tsconfig: 'tsconfig.json',
     })
   ],
 }

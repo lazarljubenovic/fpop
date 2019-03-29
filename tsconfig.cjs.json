@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "target": "esnext",
     "strict": true,
-    "declaration": true
+    "declaration": true,
+    "outDir": "dst/cjs"
   }
 }
