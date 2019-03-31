@@ -42,7 +42,7 @@ fpop.gte(c, a) // => true
 - `lt2` less than
 - `gt2` greater than
 - `lte2` less than or equal
-- `gte2` greater tha or equal
+- `gte2` greater than or equal
 
 ### N-ary
 
