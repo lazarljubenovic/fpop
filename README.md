@@ -54,3 +54,4 @@ fpop.gte(c, a) // => true
 - `areZero`
 - `arePositive`
 - `areNegative`
+- `areSameSign`

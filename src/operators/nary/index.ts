@@ -22,3 +22,5 @@ export const gte = binaryToNaryPredicate(binary.gte2)
 export const areZero = (...ns: number[]) => ns.every(unary.isZero)
 export const arePositive = (...ns: number[]) => ns.every(unary.isPositive)
 export const areNegative = (...ns: number[]) => ns.every(unary.isNegative)
+
+export const areSameSign = (...ns: number[]) => areNegative(...ns) || areZero(...ns) || arePositive(...ns)
