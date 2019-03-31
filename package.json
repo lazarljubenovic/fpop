@@ -13,7 +13,7 @@
     "typescript": "^3.3.4000"
   },
   "name": "fpop",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Floating Point OPerators.",
   "main": "dst/cjs/index.js",
   "es2015": "dst/esm/index.js",
